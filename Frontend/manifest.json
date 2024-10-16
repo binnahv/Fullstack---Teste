@@ -1,0 +1,20 @@
+{
+    "name": "Gerenciador de Tarefas",
+    "short_name": "Tarefas",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#6653AE",
+    "theme_color": "#331552",
+    "icons": [
+        {
+            "src": "icon-512x512.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

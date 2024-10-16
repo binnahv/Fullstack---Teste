@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+ 
+  <div id="login-form">
+    <h2>Login</h2>
+    <input type="text" id="login-username" placeholder="Usuário">
+    <input type="password" id="login-password" placeholder="Senha">
+    <button onclick="login()">Login</button>
+    <p>Não tem uma conta? <a href="#" onclick="showRegister()">Registrar</a></p>
+  </div>
+
+  
+  <div id="register-form" style="display: none;">
+    <h2>Registrar</h2>
+    <input type="text" id="register-username" placeholder="Usuário">
+    <input type="password" id="register-password" placeholder="Senha">
+    <button onclick="register()">Registrar</button>
+    <p>Já tem uma conta? <a href="#" onclick="showLogin()">Login</a></p>
+  </div>
+
+  
+  <div id="task-container" style="display:none;">
+    <h2>Minhas Tarefas</h2>
+    <input type="text" id="new-task" placeholder="Nova Tarefa">
+    <button onclick="addTask()">Adicionar</button>
+    <ul id="task-list"></ul>
+  </div>
+</body>
+</html>
